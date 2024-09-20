@@ -1,8 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "ozSJdWPZSyRmL2rb81zBBNMRVilrKiROoEk+rhJVskegxgo8O37KNxTw9DDs0QmGAvMWNPRSvgeF5EuEXKtq7A==",
+  "dgSpecHash": "O7/mTi04/NMSJ2ryROfJszIfaoiov75sHT4JWP+bDoId9aOchHUVc8RLqDJYNgs/9QJInfo10G3XphxgDGtlvA==",
   "success": true,
   "projectFilePath": "/Users/yasinerenkovalik/RiderProjects/TestApi/Infrastructure/Persistance/Persistance.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/yasinerenkovalik/.nuget/packages/bogus/35.6.1/bogus.35.6.1.nupkg.sha512",
+    "/Users/yasinerenkovalik/.nuget/packages/microsoft.entityframeworkcore/9.0.0-rc.1.24451.1/microsoft.entityframeworkcore.9.0.0-rc.1.24451.1.nupkg.sha512",
+    "/Users/yasinerenkovalik/.nuget/packages/microsoft.entityframeworkcore.abstractions/9.0.0-rc.1.24451.1/microsoft.entityframeworkcore.abstractions.9.0.0-rc.1.24451.1.nupkg.sha512",
+    "/Users/yasinerenkovalik/.nuget/packages/microsoft.entityframeworkcore.analyzers/9.0.0-rc.1.24451.1/microsoft.entityframeworkcore.analyzers.9.0.0-rc.1.24451.1.nupkg.sha512",
+    "/Users/yasinerenkovalik/.nuget/packages/microsoft.extensions.caching.abstractions/9.0.0-rc.1.24431.7/microsoft.extensions.caching.abstractions.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "/Users/yasinerenkovalik/.nuget/packages/microsoft.extensions.caching.memory/9.0.0-rc.1.24431.7/microsoft.extensions.caching.memory.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "/Users/yasinerenkovalik/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0-rc.1.24431.7/microsoft.extensions.dependencyinjection.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "/Users/yasinerenkovalik/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0-rc.1.24431.7/microsoft.extensions.dependencyinjection.abstractions.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "/Users/yasinerenkovalik/.nuget/packages/microsoft.extensions.logging/9.0.0-rc.1.24431.7/microsoft.extensions.logging.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "/Users/yasinerenkovalik/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.0-rc.1.24431.7/microsoft.extensions.logging.abstractions.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "/Users/yasinerenkovalik/.nuget/packages/microsoft.extensions.options/9.0.0-rc.1.24431.7/microsoft.extensions.options.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "/Users/yasinerenkovalik/.nuget/packages/microsoft.extensions.primitives/9.0.0-rc.1.24431.7/microsoft.extensions.primitives.9.0.0-rc.1.24431.7.nupkg.sha512",
+    "/Users/yasinerenkovalik/.nuget/packages/system.diagnostics.diagnosticsource/9.0.0-rc.1.24431.7/system.diagnostics.diagnosticsource.9.0.0-rc.1.24431.7.nupkg.sha512"
+  ],
   "logs": []
 }
