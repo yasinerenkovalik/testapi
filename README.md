@@ -1,81 +1,51 @@
-Proje Adı
+# 🌟 .NET Tabanlı Uygulama
 
-.NET Tabanlı Uygulama
+.NET teknolojisiyle geliştirilmiş bir uygulama. Projede **Onion Architecture**, **CQRS**, **MediatR**, **JWT Token** ve **Redis** gibi modern yazılım mimarileri ve araçlar kullanılmaktadır.
 
-Proje Açıklaması
+![Project Banner](./images/banner.png) <!-- Banner resmi buraya eklenecek -->
 
-Bu proje, Onion Architecture prensibiyle tasarlanmış ve CQRS (Command Query Responsibility Segregation) mimarisi ile geliştirilmiştir. Projede veri transferleri için AutoMapper, iş kuralları ve veri doğrulaması için Fluent Validation, event-driven yapılar için MediatR, kimlik doğrulama için JWT Token ve önbellekleme için Redis kullanılmıştır.
+---
 
-Kullanılan Teknolojiler
+## 📖 Proje Açıklaması
 
-.NET 6: Backend geliştirme platformu
-AutoMapper: Nesneler arası dönüşüm
-Onion Architecture: Katmanlı mimari ile bağımsızlık
-CQRS: Veri yazma ve okuma operasyonlarının ayrımı
-Fluent Validation: Veri doğrulama
-MediatR: İstekler arası iletişim
-JWT (JSON Web Token): Kimlik doğrulama ve yetkilendirme
-Redis: Performanslı veri önbellekleme
-Kurulum
+Bu proje, **Onion Architecture** prensibi ile katmanlı bir yapıda geliştirilmiştir. Komut ve sorgu operasyonları **CQRS** ile ayrılmıştır, kimlik doğrulama **JWT Token** ile yapılmaktadır, ve performans optimizasyonu için **Redis** kullanılmaktadır.
 
-Projenizi kendi ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
+---
 
-Projeyi Klonlayın:
-bash
-Copy code
-git clone https://github.com/kullanici-adi/proje-adi.git
-cd proje-adi
-Gerekli Bağımlılıkları Yükleyin:
-Projeyi açtıktan sonra, bağımlılıkları yüklemek için terminale şu komutu girin:
+## 🚀 Kullanılan Teknolojiler
 
-bash
-Copy code
-dotnet restore
-AppSettings.json Dosyasını Düzenleyin:
-appsettings.json dosyasındaki Redis, JWT ve diğer konfigürasyonları kendi sisteminize göre düzenleyin:
+| Teknoloji         | Açıklama                                              | 
+| ----------------- | ----------------------------------------------------  |
+| ![.NET](./images/dotnet.png) | **.NET 6**: Backend geliştirme platformu    |
+| ![AutoMapper](./images/automapper.png)  | **AutoMapper**: Nesneler arası dönüşüm      |
+| ![Onion Architecture](./images/onion.png) | **Onion Architecture**: Katmanlı mimari        |
+| ![CQRS](./images/cqrs.png)           | **CQRS**: Veri yazma ve okuma ayrımı         |
+| ![Fluent Validation](./images/fluent.png) | **Fluent Validation**: Veri doğrulama        |
+| ![MediatR](./images/mediatr.png) | **MediatR**: İstekler arası iletişim         |
+| ![JWT](./images/jwt.png)             | **JWT Token**: Kimlik doğrulama ve yetkilendirme |
+| ![Redis](./images/redis.png)         | **Redis**: Performanslı veri önbellekleme    |
 
-json
-Copy code
-{
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=localhost;Database=myDb;User Id=myUser;Password=myPass;"
-  },
-  "JwtSettings": {
-    "SecretKey": "SuperSecretKey123"
-  },
-  "RedisSettings": {
-    "ConnectionString": "localhost:6379"
-  }
-}
-Veritabanını Migrate Edin:
-Veritabanını oluşturmak ve güncellemek için şu komutu çalıştırın:
+---
 
-bash
-Copy code
-dotnet ef database update
-Projeyi Çalıştırın:
-bash
-Copy code
-dotnet run
-Kullanım
+## 📂 Proje Yapısı
 
-Proje, temel CRUD işlemlerini ve CQRS ile komut/sorgu yapılarını kullanarak, çeşitli işlevleri yerine getirmektedir. JWT Token ile güvenlik sağlanır ve kullanıcı istekleri doğrulanır.
+![Onion Architecture Diagram](./images/architecture.png) <!-- Proje mimarisi diyagramı -->
 
-Login: Kullanıcı girişini doğrular ve JWT Token üretir.
-Redis Cache: Verilerin performanslı bir şekilde önbelleğe alınmasını sağlar.
-Fluent Validation: Kullanıcı girişlerini doğrular.
-Proje Mimarisi
+Proje, aşağıdaki katmanlara ayrılmıştır:
 
-Bu proje, Onion Architecture ile geliştirilmiş olup, katmanlı yapısıyla bağımsızlık sağlar:
+- **Core**: İş kuralları ve veri modelleri.
+- **Application**: CQRS ve servis sınıfları.
+- **Infrastructure**: Veri erişimi, Redis gibi dış bağımlılıklar.
+- **API**: Web API ve controller'lar.
 
-Core: Tüm iş kuralları ve veri modelleri
-Application: CQRS, MediatR ve servis sınıfları
-Infrastructure: Veri erişim katmanı (EF Core, Redis)
-API: Web API katmanı
-Katkıda Bulunma
+---
 
-Bu projeye katkıda bulunmak isterseniz, lütfen bir Pull Request gönderin. Hataları bildirmek için Issues bölümünü kullanabilirsiniz.
+## ⚙️ Kurulum
 
-Lisans
+Projeyi kendi ortamınızda çalıştırmak için:
 
-Bu proje MIT Lisansı altında lisanslanmıştır. Ayrıntılar için LICENSE dosyasına bakın.
+1. **Projeyi Klonlayın:**
+
+   ```bash
+   git clone https://github.com/kullanici-adi/proje-adi.git
+   cd proje-adi
