@@ -1,6 +1,6 @@
 namespace Persistance.Configurations;
 
-public class DetailConfigurations:
+public class DetailConfigurations
 {
     
 }
