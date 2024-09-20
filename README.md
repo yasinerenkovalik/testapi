@@ -17,13 +17,13 @@ Bu proje, **Onion Architecture** prensibi ile katmanlı bir yapıda geliştirilm
 | Teknoloji         | Açıklama                                              | 
 | ----------------- | ----------------------------------------------------  |
 <img src="images/net.png" alt=".NET" width="50" /> | **.NET 8**: Backend geliştirme platformu
-| <img src="images/CQRS2.jpg" alt=".NET" width="50" /> | **.NET 8**: Backend geliştirme platformu |
-| <img src="images/fluent.png" alt=".NET" width="50" /> | **.NET 8**: Backend geliştirme platformu    |
-| <img src="images/images.jpeg" alt=".NET" width="50" /> | **.NET 8**: Backend geliştirme platformu |
+| <img src="images/CQRS2.jpg" alt=".NET" width="50" /> | **CQRS**: Veri yazma ve okuma ayrımı    |
+| <img src="images/fluent.png" alt=".NET" width="50" /> | **Fluent Validation**: Veri doğrulama     |
+| <img src="images/images.jpeg" alt=".NET" width="50" /> |  **AutoMapper**: Nesneler arası dönüşüm |
 | <img src="images/jwt.svg" alt=".NET" width="50" /> | **.NET 8**: Backend geliştirme platformu      |
-|<img src="images/logo.png" alt=".NET" width="50" /> | **.NET 8**: Backend geliştirme platformu      |
-| <img src="images/mediatr.png" alt=".NET" width="50" /> | **.NET 8**: Backend geliştirme platformu |
-| <img src="images/redis.png" alt=".NET" width="50" /> | **.NET 8**: Backend geliştirme platformu  |
+|<img src="images/logo.png" alt=".NET" width="50" /> |  **Onion Architecture**: Katmanlı mimari      |
+| <img src="images/mediatr.png" alt=".NET" width="50" /> | **MediatR**: İstekler arası iletişim   |
+| <img src="images/redis.png" alt=".NET" width="50" /> | **Redis**: Performanslı veri önbellekleme   |
 
 ---
 
