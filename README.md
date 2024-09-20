@@ -17,8 +17,6 @@ Bu proje, **Onion Architecture** prensibi ile katmanlı bir yapıda geliştirilm
 | Teknoloji         | Açıklama                                              | 
 | ----------------- | ----------------------------------------------------  |
 <img src="images/net.png" alt=".NET" width="50" /> | **.NET 8**: Backend geliştirme platformu
-
-| ![.NET](./images/net.png) | **.NET 8**: Backend geliştirme platformu    |
 | ![AutoMapper](./images/automapper.png)  | **AutoMapper**: Nesneler arası dönüşüm      |
 | ![Onion Architecture](./images/onion.png) | **Onion Architecture**: Katmanlı mimari        |
 | ![CQRS](./images/cqrs.png)           | **CQRS**: Veri yazma ve okuma ayrımı         |
