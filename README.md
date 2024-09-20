@@ -16,7 +16,7 @@ Bu proje, **Onion Architecture** prensibi ile katmanlı bir yapıda geliştirilm
 
 | Teknoloji         | Açıklama                                              | 
 | ----------------- | ----------------------------------------------------  |
-<img src="./images/et.png" alt=".NET" width="50" /> | **.NET 8**: Backend geliştirme platformu
+<img src="images/et.png" alt=".NET" width="50" /> | **.NET 8**: Backend geliştirme platformu
 
 | ![.NET](./images/net.png) | **.NET 8**: Backend geliştirme platformu    |
 | ![AutoMapper](./images/automapper.png)  | **AutoMapper**: Nesneler arası dönüşüm      |
