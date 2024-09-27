@@ -1,23 +1,25 @@
 using System.Reflection;
 using Api.Domain.Commen.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
-namespace Persistance.Context;
-
-public class AppDbContext:DbContext
+namespace Persistence.Context 
 {
-    public AppDbContext(DbContextOptions options):base(options)
+    public class AppDbContext : DbContext
     {
-        
-    }
+   
+     
+     
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseNpgsql("User ID=testapi;Password=12345;Host=localhost;Port=5432;Database=testapi;Pooling=true;Connection Lifetime=0;");
+        }
 
-    public DbSet<Product> Products { get; set; }
-    public DbSet<Category> Categories { get; set; }
-    public DbSet<Detail> Details { get; set; }
-    public DbSet<Brand> Brands { get; set; }
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
-    {
-        base.OnModelCreating(modelBuilder);
-        modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Detail> Details { get; set; }
+        public DbSet<Brand> Brands { get; set; }
+
+   
     }
 }
