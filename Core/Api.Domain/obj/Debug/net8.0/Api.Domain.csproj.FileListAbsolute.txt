@@ -1,0 +1,15 @@
+/Users/yasinerenkovalik/RiderProjects/TestApi/Core/Api.Domain/bin/Debug/net8.0/Api.Domain.deps.json
+/Users/yasinerenkovalik/RiderProjects/TestApi/Core/Api.Domain/bin/Debug/net8.0/Api.Domain.dll
+/Users/yasinerenkovalik/RiderProjects/TestApi/Core/Api.Domain/bin/Debug/net8.0/Api.Domain.pdb
+/Users/yasinerenkovalik/RiderProjects/TestApi/Core/Api.Domain/obj/Debug/net8.0/Api.Domain.csproj.AssemblyReference.cache
+/Users/yasinerenkovalik/RiderProjects/TestApi/Core/Api.Domain/obj/Debug/net8.0/Api.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yasinerenkovalik/RiderProjects/TestApi/Core/Api.Domain/obj/Debug/net8.0/Api.Domain.AssemblyInfoInputs.cache
+/Users/yasinerenkovalik/RiderProjects/TestApi/Core/Api.Domain/obj/Debug/net8.0/Api.Domain.AssemblyInfo.cs
+/Users/yasinerenkovalik/RiderProjects/TestApi/Core/Api.Domain/obj/Debug/net8.0/Api.Domain.csproj.CoreCompileInputs.cache
+/Users/yasinerenkovalik/RiderProjects/TestApi/Core/Api.Domain/obj/Debug/net8.0/Api.Domain.sourcelink.json
+/Users/yasinerenkovalik/RiderProjects/TestApi/Core/Api.Domain/obj/Debug/net8.0/Api.Domain.dll
+/Users/yasinerenkovalik/RiderProjects/TestApi/Core/Api.Domain/obj/Debug/net8.0/refint/Api.Domain.dll
+/Users/yasinerenkovalik/RiderProjects/TestApi/Core/Api.Domain/obj/Debug/net8.0/Api.Domain.pdb
+/Users/yasinerenkovalik/RiderProjects/TestApi/Core/Api.Domain/obj/Debug/net8.0/ref/Api.Domain.dll
+/Users/yasinerenkovalik/RiderProjects/TestApi/Core/Api.Domain/bin/Debug/net8.0/Api.Domain.runtimeconfig.json
+/Users/yasinerenkovalik/RiderProjects/TestApi/Core/Api.Domain/obj/Debug/net8.0/Api.Domain.genruntimeconfig.cache
