@@ -15,6 +15,7 @@ namespace Persistence
         {
             serviceCollection.AddDbContext<AppDbContext>(); // PostgreSQL bağlantı dizesini kullanıyoruz
             serviceCollection.AddScoped(typeof(IReadRepository<>),typeof(ReadRepository<>));
+            serviceCollection.AddScoped(typeof(IWriteRepository<>),typeof(WriteRepository<>));
         }
     }
 }
