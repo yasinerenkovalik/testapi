@@ -1,14 +1,20 @@
+using Api.Application.Interfaces.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Persistance.Context;
 
-namespace Persistance;
+using Persistence.Context;
+using Persistence.Repositories;
 
-public static class Registration
+
+namespace Persistence 
 {
-    public static void AddPersistance(this IServiceCollection serviceCollection,IConfiguration configuration)
+    public static class Registration
     {
-        serviceCollection.AddDbContext<AppDbContext>(opt=>opt.UseNpgsql(configuration.GetConnectionString("PostgreSQL")));
+        public static void AddPersistence(this IServiceCollection serviceCollection, IConfiguration configuration)
+        {
+            serviceCollection.AddDbContext<AppDbContext>(); // PostgreSQL bağlantı dizesini kullanıyoruz
+            serviceCollection.AddScoped(typeof(IReadRepository<>),typeof(ReadRepository<>));
+        }
     }
 }
