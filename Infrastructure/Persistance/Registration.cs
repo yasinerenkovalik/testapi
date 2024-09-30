@@ -1,10 +1,12 @@
 using Api.Application.Interfaces.Repositories;
+using Api.Application.UnitOfWorks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 using Persistence.Context;
 using Persistence.Repositories;
+using Persistence.UnitOfWorks;
 
 
 namespace Persistence 
@@ -16,6 +18,7 @@ namespace Persistence
             serviceCollection.AddDbContext<AppDbContext>(); // PostgreSQL bağlantı dizesini kullanıyoruz
             serviceCollection.AddScoped(typeof(IReadRepository<>),typeof(ReadRepository<>));
             serviceCollection.AddScoped(typeof(IWriteRepository<>),typeof(WriteRepository<>));
+            serviceCollection.AddScoped<IUnitOfWorks, UnitOfWork>();
         }
     }
 }
