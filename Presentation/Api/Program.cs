@@ -1,27 +1,20 @@
-using Persistance;
-
 using Persistence;
-using Persistence.Context;
+using Api.Application2;
+using Api.Mapper;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddControllers(); //ijincisi de bu
+builder.Services.AddControllers(); //i de bu
 builder.Services.AddSwaggerGen();
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("AllowAllOrigins",
-        builder =>
-        {
-            builder.AllowAnyOrigin()
-                .AllowAnyMethod()
-                .AllowAnyHeader();
-        });
-});
+
 
 builder.Services.AddPersistence(builder.Configuration);
+builder.Services.AddApplication();
+builder.Services.AddCustomMapper();
 
 
 var app = builder.Build();
@@ -34,7 +27,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.MapControllers();//bu ve yuakrıdaki .net 8 yada rider yüzünden eklenmiyor 404 hatası veriyor
+app.MapControllers();//bu ve yu karı da .net 8 ya da rider yü zün den ekl en miy or 404 hat ası ver iy or
 
 app.UseCors("AllowAllOrigins");
 

@@ -243,3 +243,7 @@
 /Users/yasinerenkovalik/RiderProjects/TestApi/Presentation/Api/obj/Debug/net8.0/Api.pdb
 /Users/yasinerenkovalik/RiderProjects/TestApi/Presentation/Api/obj/Debug/net8.0/Api.genruntimeconfig.cache
 /Users/yasinerenkovalik/RiderProjects/TestApi/Presentation/Api/obj/Debug/net8.0/ref/Api.dll
+/Users/yasinerenkovalik/RiderProjects/TestApi/Presentation/Api/bin/Debug/net8.0/MediatR.dll
+/Users/yasinerenkovalik/RiderProjects/TestApi/Presentation/Api/bin/Debug/net8.0/MediatR.Contracts.dll
+/Users/yasinerenkovalik/RiderProjects/TestApi/Presentation/Api/bin/Debug/net8.0/Api.Infrastructure.dll
+/Users/yasinerenkovalik/RiderProjects/TestApi/Presentation/Api/bin/Debug/net8.0/Api.Infrastructure.pdb
