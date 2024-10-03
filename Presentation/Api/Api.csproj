@@ -18,11 +18,19 @@
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
         <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.5" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\..\Core\Api.Application\Api.Application.csproj" />
+      <ProjectReference Include="..\..\Core\Api.Mapper\Api.Mapper.csproj" />
+      <ProjectReference Include="..\..\Infrastructure\Api.Infrastructure\Api.Infrastructure.csproj" />
       <ProjectReference Include="..\..\Infrastructure\Persistance\Persistance.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Controller\" />
     </ItemGroup>
 
 </Project>

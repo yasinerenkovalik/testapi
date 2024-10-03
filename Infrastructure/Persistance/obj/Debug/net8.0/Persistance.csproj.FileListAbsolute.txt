@@ -17,3 +17,5 @@
 /Users/yasinerenkovalik/RiderProjects/TestApi/Infrastructure/Persistance/obj/Debug/net8.0/EFCoreNpgsqlNetTopologySuite.cs
 /Users/yasinerenkovalik/RiderProjects/TestApi/Infrastructure/Persistance/bin/Debug/net8.0/Persistance.runtimeconfig.json
 /Users/yasinerenkovalik/RiderProjects/TestApi/Infrastructure/Persistance/obj/Debug/net8.0/Persistance.genruntimeconfig.cache
+/Users/yasinerenkovalik/RiderProjects/TestApi/Infrastructure/Persistance/bin/Debug/net8.0/Api.Application.dll
+/Users/yasinerenkovalik/RiderProjects/TestApi/Infrastructure/Persistance/bin/Debug/net8.0/Api.Application.pdb

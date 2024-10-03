@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "dDs3xIgLgK4ukYj1KG5OTeMr8ld42Pt0OVR/Nm8eIyCsyeuSCEjYtIz8bu+N1JW0DDB5bNsqo3jj6QlVDAKdoQ==",
+  "dgSpecHash": "QqSeJjfVAGoewdwQZWhgpOeAD4+W3lKgW3deuOywpqU7Lt/+qjrQZgVp7H7DScAm+7c67mfuJcn3MKuel6pD/Q==",
   "success": true,
   "projectFilePath": "/Users/yasinerenkovalik/RiderProjects/TestApi/Infrastructure/Persistance/Persistance.csproj",
   "expectedPackageFiles": [
     "/Users/yasinerenkovalik/.nuget/packages/bogus/35.6.1/bogus.35.6.1.nupkg.sha512",
     "/Users/yasinerenkovalik/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/yasinerenkovalik/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
+    "/Users/yasinerenkovalik/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/yasinerenkovalik/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/yasinerenkovalik/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "/Users/yasinerenkovalik/.nuget/packages/microsoft.codeanalysis.common/4.5.0/microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
